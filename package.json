@@ -1,0 +1,16 @@
+{
+  "name": "pfcs",
+  "version": "1.0.0",
+  "description": "personal blog of pfcs",
+  "main": "index.js",
+  "repository": "git@github.com:PFCS33/pfcs33.github.io.git",
+  "author": "pfcs33 <aaapfcs@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.9"
+  },
+  "scripts": {
+    "docs:dev": "set NODE_OPTIONS=--openssl-legacy-provider & vuepress dev docs",
+    "docs:build": "set NODE_OPTIONS=--openssl-legacy-provider & vuepress build docs"
+  }
+}
