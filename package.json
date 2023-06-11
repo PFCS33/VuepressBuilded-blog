@@ -7,11 +7,12 @@
   "author": "pfcs33 <aaapfcs@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@goy/vuepress-plugin-svg-icons": "4.3.0",
+    "@goy/vuepress-plugin-svg-icons": "4.2.3",
     "vuepress": "^1.9.9"
   },
   "scripts": {
     "docs:dev": "set NODE_OPTIONS=--openssl-legacy-provider & vuepress dev docs",
-    "docs:build": "set NODE_OPTIONS=--openssl-legacy-provider & vuepress build docs"
+    "docs:build": "set NODE_OPTIONS=--openssl-legacy-provider & vuepress build docs",
+    "svgo": "vuepress svgo docs"
   }
 }

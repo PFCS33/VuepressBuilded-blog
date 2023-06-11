@@ -56,4 +56,8 @@ export default {
     margin-right: 4.6875rem
   .made-by
     margin: 0
+  svg
+    fill:$accentColor
+  svg:hover
+    fill: $svgFillColor
 </style>
