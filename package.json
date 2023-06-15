@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "@vuepress/theme-blog": "^2.3.3",
+    "vuepress": "^1.9.9"
+  },
+  "name": "pfcs",
+  "version": "1.0.0",
+  "description": "personal blog of pfcs",
+  "main": "index.js",
+  "author": "pfcs33 <aaapfcs@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider & vuepress dev blog",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider & vuepress build blog"
+  }
+}
